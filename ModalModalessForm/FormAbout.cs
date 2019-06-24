@@ -11,6 +11,12 @@ namespace ModalModalessForm
 {
     public partial class FormAbout : Form
     {
+        public string Title
+        {
+            //폼의 text박스를 가져옴
+            set { this.Text = value; }
+        }
+
         public FormAbout()
         {
             InitializeComponent();

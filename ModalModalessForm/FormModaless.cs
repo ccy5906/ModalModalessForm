@@ -11,6 +11,12 @@ namespace ModalModalessForm
 {
     public partial class FormModaless : Form
     {
+        public string Title
+        {
+            //폼의 타이틀 바꾸기
+            set { this.Text = value; }
+        }
+
         public FormModaless()
         {
             InitializeComponent();
